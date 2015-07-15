@@ -1,0 +1,85 @@
+/**
+ * Little bit of CSS for our souls' sake.
+ **/
+body {
+    background-color: black;
+}
+
+main {
+    width: 80%;
+    display: inline-block;
+    padding: 15px;
+    background-color: rgba(0, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flip {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.skull {
+    width: 250px;
+}
+
+.heading {
+    display: inline-block;
+}
+
+label, a {
+    color:lime;
+}
+h1 {
+    color: lime;
+    font-size: 60px;
+    width: 300px;
+    text-align: center;
+}
+
+.pro-soap-slogan {
+    color: red;
+    font-size: 21px;
+    text-align: center;
+    padding: 20px;
+}
+
+img.pony {
+    width: 61px;
+}
+
+div {
+    text-align: center;
+}
+
+.comment {
+    width: 50%;
+    background-color: limegreen;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.comment {
+    text-align: right;
+}
+
+.comment div {
+    text-align: left;
+    padding: 10px;
+}
+
+small {
+    margin-right: 15px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>XSS test: {{YOUR AD HERE}}</title>
+    <link rel="stylesheet" type="text/css" href="xss.css">
+</head>
+<body>
+<main>
+    <form action="/servlet-1.0/xss/" method="post">
+        <img src="images/spinning-skull.gif" alt="Spinning Skullzor" class="skull"/>
+        <img src="images/torch-flame.gif" alt="Awesome Torch"/>
+
+        <div class="heading">
+            <h1>Evan's Awesome Page (TM)</h1>
+        </div>
+        <img src="images/torch-flame.gif" alt="Awesome Torch Also" class="flip"/>
+        <img src="images/spinning-skull.gif" alt="Spinning Skullzor" class="skull"/>
+        <div class="pro-soap-slogan">Mess with the best, die like the REST</div>
+        <div>
+            <label>
+                Leave a comment please <img src="images/pony.gif" alt="lol I'm so random" class="pony"/>
+                <input type="text" name="trusted-input"/>
+            </label>
+            <button type="submit">Let's go!</button>
+        </div>
+
+        <p>{{YOUR AD HERE}}</p>
+        <label>Sneaky headers<input name='header' value='true' {{header}} type='checkbox'/></label>
+
+        <select name="method" value="{{METHOD}}">
+            {{SANITIZE_OPTIONS}}
+        </select>
+    </form>
+</main>
+</body>
+</html>
